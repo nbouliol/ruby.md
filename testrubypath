@@ -1,0 +1,7 @@
+#! env ruby
+
+running_path = Dir.pwd
+
+find_pattern = File.join(running_path, '**/*.md')
+puts find_pattern
+p Dir.glob(find_pattern)
